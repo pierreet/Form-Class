@@ -129,19 +129,19 @@ Result:
 </form>
 ```
 Allowed types are:
-*single line text : Text
-*multi lines text : Textarea
-*password         : Password 
-*hidden field     : Hidden
-*validate button  : Submit
-*button           : Button
-*radio button     : Radio
-*select option    : Select
-*checkbox         : Checkbox
-*file upload      : File
-*e-mail address   : Email
-*date / time      : Date
-*captcha          : Captcha
+* single line text : Text
+* multi lines text : Textarea
+* password         : Password 
+* hidden field     : Hidden
+* validate button  : Submit
+* button           : Button
+* radio button     : Radio
+* select option    : Select
+* checkbox         : Checkbox
+* file upload      : File
+* e-mail address   : Email
+* date / time      : Date
+* captcha          : Captcha
 
 
 ### Single Line Text ###
@@ -210,13 +210,13 @@ This will render an `<input type="text" />` field. When the form will be submitt
 This will render an `<input type="text" />` field. As for the e-mail field the form won't be validated if the date isn't correct.
 You need to specify the format of the date with the method `format`: `$form->add('Date', 'date')->format('mm/dd/yyyy');`
 Supported formats are the following:
-*dd
-*mm
-*yy
-*yyyy
-*HH
-*MM
-*SS
+* dd
+* mm
+* yy
+* yyyy
+* HH
+* MM
+* SS
 
 ### Captcha ###
 
