@@ -229,17 +229,18 @@ Other methods
 -----------------
 
 There is other methods that exists for all the field:
-*required(bool)     : Specify if the field is required to validate the form (default true)
-*autocomplete(bool) : Display the autocomplete HTML property (default false)
-*maxlength(int)     : Specify the maximum length that can have a text field
-*minlength(int)     : Specify the minimum length that can have a text field
-*javascript(string) : Allow to add some javascript code (ie: onclick, ...) to the field (actually you can add anything you want, eg: other html attributes)
+* `required(bool)`     : Specify if the field is required to validate the form (default true)
+* `autocomplete(bool)` : Display the autocomplete HTML property (default false)
+* `maxlength(int)`     : Specify the maximum length that can have a text field
+* `minlength(int)`     : Specify the minimum length that can have a text field
+* `javascript(string)` : Allow to add some javascript code (ie: onclick, ...) to the field (actually you can add anything you want, eg: other html attributes)
 
 
 There is other methods for the form object:
 
 ### Filling ###
-You can fill the form with the method `bound`:
+You can fill the form with the method `bound(array)`:
+E.g.:
 ``` php
 <?php
 $form->->bound($_POST); // <= allow to fill the form after error on validation
